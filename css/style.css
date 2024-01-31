@@ -1,0 +1,152 @@
+.box {
+   min-width: 100vh;
+   margin: 90px 98px;
+   background-color: #370617;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.box__contentA,
+.box__contentB,
+.box__contentC,
+.box__contentD,
+.box__contentE,
+.box__contentF {
+   width: 468px;
+   height: 160px;
+   border-radius: 8px;
+   margin-top: 90px;
+   margin-left: 98px;
+   margin: 10px;
+   background-color: #f48c06;
+}
+/*left top box*/
+.box__contentA-1,
+.box__contentA-2,
+.box__contentA-3 {
+   width: 78px;
+   height: 78px;
+   border-radius: 4px;
+   margin: 10px;
+   background-color: #9d0208;
+}
+.box__contentA {
+   display: flex;
+   align-items: flex-end;
+}
+/* right top box*/
+.box__contentB-1,
+.box__contentB-2,
+.box__contentB-3 {
+   width: 78px;
+   height: 120px;
+   margin: 10px;
+   border-radius: 4px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   background-color: #9d0208;
+}
+.box__contentB {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+/*left middle box*/
+.box__contentC-1,
+.box__contentC-2,
+.box__contentC-3 {
+   width: 78px;
+   height: 78px;
+   border-radius: 4px;
+   margin: 10px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   background-color: #9d0208;
+}
+.box__contentC {
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+/*right middle box*/
+.box__contentD-1,
+.box__contentD-2,
+.box__contentD-3 {
+   width: 78px;
+   height: 78px;
+   border-radius: 4px;
+   margin: 20px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   background-color: #9d0208;
+}
+.box__contentD {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+/*I'm not sure this is the best solustion to put the third box down*/
+.box__contentD-3 {
+   margin-top: 62px;
+}
+/*bottom left box*/
+.box__contentE-1,
+.box__contentE-3 {
+   width: 78px;
+   height: 120px;
+   border-radius: 4px;
+   background-color: #9d0208;
+}
+.box__contentE-2 {
+   width: 78px;
+   height: 64px;
+   border-radius: 4px;
+   background-color: #9d0208;
+}
+.box__contentE {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.text--A {
+   /*some text, left and right box*/
+   font-family: "roboto", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   margin-top: 34px;
+   color: #ffffff;
+   text-align: center;
+}
+.text--B {
+   /*some text in the middle smaller box*/
+   font-family: "roboto", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 14px;
+   margin-top: 11px;
+   color: #ffffff;
+   text-align: center;
+}
+
+/*bottom right box*/
+.box__contentF-1,
+.box__contentF-3 {
+   width: 78px;
+   height: 78px;
+   border-radius: 4px;
+   margin: 20px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   background-color: #9d0208;
+}
+.box__contentF-2 {
+   width: 156px;
+   height: 78px;
+   border-radius: 4px;
+   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+   background-color: #9d0208;
+}
+.box__contentF {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
